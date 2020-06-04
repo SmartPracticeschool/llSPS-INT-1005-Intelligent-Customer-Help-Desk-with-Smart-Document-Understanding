@@ -1,0 +1,543 @@
+[
+    {
+        "id": "932ec5ad.2601c8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "aa673dc6.3ce43",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "5ba3303f.300f9",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "527fa1d8.1dd5b",
+        "type": "ui_tab",
+        "z": "",
+        "name": "NodeREDJMZWQ",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "46972f46.f66bf",
+        "type": "ui_group",
+        "z": "",
+        "name": "Results",
+        "tab": "527fa1d8.1dd5b",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": true
+    },
+    {
+        "id": "cf5d1aa.829c8e8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": false,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 200,
+                "sy": 100,
+                "gx": 6,
+                "gy": 6,
+                "cx": 5,
+                "cy": 5,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2a9c1cfd.5b0d84",
+        "type": "ui_group",
+        "z": "932ec5ad.2601c8",
+        "name": "customer care chatbot",
+        "tab": "527fa1d8.1dd5b",
+        "order": 1,
+        "disp": true,
+        "width": "2",
+        "collapse": false
+    },
+    {
+        "id": "2c550a47.94d9a6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "3aa33221.5cc51e",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3c7d122d.b12cce",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c9131c20.ec086",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ce0bac76.fda64",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "9d342934.bc0188",
+        "type": "ui_group",
+        "name": "Group 4",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ed48157d.022ae8",
+        "type": "ui_group",
+        "name": "Group 5",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "54f12509.3896ac",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": null,
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ea2a99e4.a14038",
+        "type": "ui_group",
+        "z": "",
+        "name": "Conversation",
+        "tab": "47a584e2.45d7dc",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "47a584e2.45d7dc",
+        "type": "ui_tab",
+        "z": "",
+        "d": true,
+        "name": "Customer help desk",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "deb1c02d.4c97b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "46e9e0c1.eb293",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72334e46.9411b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "46e9e0c1.eb293",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "96dd7a75.286708",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "46e9e0c1.eb293",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b6e2e3d8.6acd3",
+        "type": "function",
+        "z": "932ec5ad.2601c8",
+        "name": "input parsing",
+        "func": "msg.payload=msg.payload.input;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "320c10ea.7f1a",
+                "ccd14ace.5a9cd8"
+            ]
+        ]
+    },
+    {
+        "id": "a18fcc5b.50f7d",
+        "type": "function",
+        "z": "932ec5ad.2601c8",
+        "name": "parsing",
+        "func": "msg.payload.text=\"\";\nif(msg.payload.context.webhook_result_1){\n    for(var i in msg.payload.context.webhook_result_1.results){\n    msg.payload.text=msg.payload.text+\"\\n\"+msg.payload.context.webhook_result_1.results[i].text;\n}\n    msg.payload=msg.payload.text;\n}\nelse\nmsg.payload = msg.payload.output.text[0];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 220,
+        "wires": [
+            [
+                "5f0dc7bb.1f2808"
+            ]
+        ]
+    },
+    {
+        "id": "2017ae6e.fab9f2",
+        "type": "ui_form",
+        "z": "932ec5ad.2601c8",
+        "name": "",
+        "label": "",
+        "group": "2a9c1cfd.5b0d84",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "options": [
+            {
+                "label": "Enter the input",
+                "value": "input",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "input": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "b6e2e3d8.6acd3"
+            ]
+        ]
+    },
+    {
+        "id": "1583c506.ecbefb",
+        "type": "debug",
+        "z": "932ec5ad.2601c8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 600,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5f0dc7bb.1f2808",
+        "type": "ui_text",
+        "z": "932ec5ad.2601c8",
+        "group": "46972f46.f66bf",
+        "order": 2,
+        "width": "4",
+        "height": "7",
+        "name": "",
+        "label": "Bot",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 650,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8d51bede.5d969",
+        "type": "watson-discovery-v1",
+        "z": "aa673dc6.3ce43",
+        "name": "",
+        "environmentname": "",
+        "environmentId": "69a7e113-fff0-429f-9a9d-9ca4cb5ca441",
+        "collectionId": "478e0136-8fe0-411e-a19a-26e432f8013d",
+        "configurationname": "",
+        "configurationId": "",
+        "language_code": "en",
+        "collection_name": "",
+        "count": "1",
+        "passages": true,
+        "nlp_query": true,
+        "query": "",
+        "filter": "",
+        "aggregation": "",
+        "return": "",
+        "description": "",
+        "size": "LT",
+        "discovery-method": "query",
+        "service-endpoint": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/9cc79eee-3965-4d3c-8fdd-0c7c2fa57386",
+        "x": 420,
+        "y": 140,
+        "wires": [
+            [
+                "64c588eb.b4b4c8",
+                "e5e7e938.4b9698"
+            ]
+        ]
+    },
+    {
+        "id": "f4aed460.846d68",
+        "type": "function",
+        "z": "aa673dc6.3ce43",
+        "name": "",
+        "func": "msg={\ndiscoveryparams:\n{\n    \"environment_id\":\"69a7e113-fff0-429f-9a9d-9ca4cb5ca441\",\n    \"query\":msg.payload.input\n}\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "8d51bede.5d969"
+            ]
+        ]
+    },
+    {
+        "id": "e5e7e938.4b9698",
+        "type": "function",
+        "z": "aa673dc6.3ce43",
+        "name": "",
+        "func": "msg.payload=msg.search_results.results[0].text\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "dcdb2513.b00c48"
+            ]
+        ]
+    },
+    {
+        "id": "64c588eb.b4b4c8",
+        "type": "debug",
+        "z": "aa673dc6.3ce43",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 720,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "13ba0be4.5ad7f4",
+        "type": "ui_form",
+        "z": "aa673dc6.3ce43",
+        "name": "",
+        "label": "",
+        "group": "3c7d122d.b12cce",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "options": [
+            {
+                "label": "Enter the query",
+                "value": "input",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "input": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "f4aed460.846d68"
+            ]
+        ]
+    },
+    {
+        "id": "dcdb2513.b00c48",
+        "type": "debug",
+        "z": "aa673dc6.3ce43",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 670,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "320c10ea.7f1a",
+        "type": "ui_text",
+        "z": "932ec5ad.2601c8",
+        "group": "2a9c1cfd.5b0d84",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "You",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 340,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "9f78e460.672c68",
+        "type": "watson-conversation-v1",
+        "z": "5ba3303f.300f9",
+        "name": "",
+        "workspaceid": "27ef4bfd-cfc3-4ea0-9d02-307f582019ec",
+        "multiuser": false,
+        "context": false,
+        "empty-payload": false,
+        "service-endpoint": "https://api.au-syd.assistant.watson.cloud.ibm.com/instances/0cbac793-fd39-4bfb-a44e-addb2350104d",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 420,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ccd14ace.5a9cd8",
+        "type": "watson-conversation-v1",
+        "z": "932ec5ad.2601c8",
+        "name": "",
+        "workspaceid": "27ef4bfd-cfc3-4ea0-9d02-307f582019ec",
+        "multiuser": false,
+        "context": false,
+        "empty-payload": false,
+        "service-endpoint": "https://api.au-syd.assistant.watson.cloud.ibm.com/instances/0cbac793-fd39-4bfb-a44e-addb2350104d",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 340,
+        "y": 80,
+        "wires": [
+            [
+                "a18fcc5b.50f7d",
+                "1583c506.ecbefb"
+            ]
+        ]
+    }
+]
